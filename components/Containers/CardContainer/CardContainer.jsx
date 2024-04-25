@@ -1,5 +1,5 @@
 import { StyledCardContainer } from "./elements";
 
-export const ContentContainer = ({ ...props }) => {
+export const CardContainer = ({ ...props }) => {
   return <StyledCardContainer {...props} />;
 };

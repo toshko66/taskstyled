@@ -7,10 +7,17 @@ export const StyledContainer = styled(({ height, ...props }) => <SectionContaine
   display:flex;
   flex-direction:column;
   margin-top:5rem;
+  background-image: url("/img/background.png");
 `;
 
 export const StyledContent =styled(({width, ...props }) => <SectionContainer {...props} />)`
 display:flex;
+justify-content: center;
+
+@media (max-width: 1024px) {
+ flex-direction:column;
+ align-items:center;
+}
 `;
 
 
@@ -40,6 +47,5 @@ export const StyledImageContainer = styled(({ ...props }) => <div {...props} />)
   max-height: 40rem;
   width: 100%;
   height: 100%;
-  margin-left: auto;
 `;
 

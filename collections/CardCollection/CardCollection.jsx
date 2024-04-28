@@ -33,8 +33,8 @@ const cardsData = [
       height: 100,
     },
     title: "Pitch",
-    description: "Comprehensive<strong>pitch management,</strong>including comms,diary management and pitch hosting.",
-    maxWidth: '23rem', 
+    description: "Comprehensive<strong> pitch management,</strong> including comms, diary management and pitch hosting.",
+    maxWidth: '22rem', 
       },
 ];
 

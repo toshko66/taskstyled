@@ -18,6 +18,13 @@ export const StyledGetStartedBtn = styled((props) => <Button {...props} variant=
 export const StyledTitle = styled((props) => <SectionBigHeading {...props} />)`
   margin: 0;
   color: black;
+  @media (max-width: 1024px) {
+    font-size:2.5rem;
+    }
+
+    @media (max-width: 375px) {
+      font-size:2rem;
+      }
 `;
 
 export const StyledDescription = styled((props) => <SectionSubheading {...props} />)`

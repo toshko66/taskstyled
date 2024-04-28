@@ -8,6 +8,7 @@ export const StyledContainer = styled(({ height, ...props }) => <SectionContaine
   flex-direction:column;
   margin-top:5rem;
   background-image: url("/img/background.png");
+  
 `;
 
 export const StyledContent =styled(({width, ...props }) => <SectionContainer {...props} />)`
@@ -26,6 +27,10 @@ export const StyledTitle = styled((props) => <SectionBigHeading {...props} />)`
 
   margin: 0;
   color: black;
+
+  @media (max-width: 1024px) {
+   font-size:2.5rem;
+   }
 `;
 
 
